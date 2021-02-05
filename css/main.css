@@ -1,6 +1,19 @@
+body {
+  font-family: 'Roboto', Raleway, sans-serif;
+}
+
 .nav-contact {
   color: rgba(117, 117, 117, 1);
   text-decoration: none;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .nav-contact:hover {
@@ -10,6 +23,15 @@
 .nav-link {
   text-decoration: none;
   color: rgba(33, 33, 33, 1);
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover {
@@ -19,6 +41,16 @@
 .logo {
   color: rgba(33, 33, 33, 1);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .web {
@@ -34,41 +66,163 @@
 
 .business {
   color: rgba(255, 255, 255, 1);
+  position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
   top: 280px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .bus-button {
-  color: rgba(255, 255, 255, 1);
-  background: rgba(33, 150, 243, 1);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.button-text {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 .head {
   color: rgba(33, 33, 33, 1);
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .head-text {
   color: rgba(117, 117, 117, 1);
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.our-spec {
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.img-spec {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+.img-spec2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+
+.img-spec3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
 }
 
 .team-head {
   color: rgba(33, 33, 33, 1);
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.team {
+.teammate {
   color: rgba(33, 33, 33, 1);
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 1925px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-spec {
   color: rgba(117, 117, 117, 1);
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 1954px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .main-address {
   color: rgba(255, 255, 255, 1);
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer-back {
@@ -81,6 +235,16 @@
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 li {
